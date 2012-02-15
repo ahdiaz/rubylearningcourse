@@ -1,0 +1,63 @@
+Using Git & GitHub
+------------------
+
+Done!
+
+
+Using RVM
+---------
+
+* Installing the stable release of RVM and reloading the shell environment.
+  This method installs RVM for the current user only, under ~/.rvm:
+
+    $ bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
+    $ source ~/.bash_profile
+
+* To see a list of available Ruby interpreters:
+
+    $ rvm list known
+
+* Now install Ruby 1.9.3 and make this version the default for our environment:
+
+    $ rvm install 1.9.3
+    $ rvm list
+    $ rvm use 1.9.3 --default
+    $ rvm list
+
+
+Installing Gems and Heroku
+--------------------------
+
+* Install heroku gem in the current active ruby. If you use the 'rvm' keyword you will
+  need to specify the ruby version you want to install the gem to.
+
+    $ gem install heroku
+
+    # List installed gems
+    $ gem list
+
+    # Find the location of a library
+    $ gem which heroku
+
+    # Uninstall a gem
+    $ gem uninstall heroku
+
+    # More help
+    $ gem help commands
+
+* Uploading the public key to Heroku:
+
+    $ heroku keys:add 
+
+
+Installing Bundle
+-----------------
+
+    $ gem install bundle
+
+
+References
+----------
+
+http://beginrescueend.com/
+
