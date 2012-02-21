@@ -1,0 +1,11 @@
+Creating a Gem
+
+    $ gem update --system
+    $ gem build gem_name.gemspec
+    $ gem install ./gem_name-0.0.1.gem
+
+Publish the Gem
+
+    $ gem push gem_name-0.0.1.gem
+    $ gem list -r gem_name
+
