@@ -1,0 +1,9 @@
+
+
+Nokogiri
+
+    Install instructions: http://nokogiri.org/tutorials/installing_nokogiri.html
+
+    On Debian machines:
+        $ aptitude install libxslt-dev libxml2-dev
+        $ gem install nokogiri
